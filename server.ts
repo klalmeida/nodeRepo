@@ -2,7 +2,7 @@ import express, {Request, Response} from 'express';
 const app = express();
 
 app.get('/', (req: Request, res: Response) =>
-    res.send('Welcome to my Node Project'));
+    res.send("Welcome to Katey's Node Project!!!"));
                  
 app.get('/hello', (req: Request, res: Response) =>
     res.send('Hello World!'));
